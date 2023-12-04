@@ -29,6 +29,19 @@ void main() {
   print(modulo);
 
   //equality & relational operators
+  print(a > b);
+  print(a < b);
+  print(a == b);
+  print(a != b);
+  print(a >= b);
+  print(a <= b);
 
   //logical operator
+  print('Logical Operators');
+  bool x = true;
+  bool y = true;
+
+  print(x && y);
+  print(x || y);
+  print(!x);
 }
